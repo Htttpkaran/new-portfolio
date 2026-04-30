@@ -16,7 +16,7 @@ const Hero = () => (
         </p>
         <div className="flex flex-wrap gap-4">
           <a className="px-8 py-3 bg-secondary-container text-white rounded font-medium hover:brightness-110 active:scale-95 transition-all" href="#projects">View Projects</a>
-          <a className="px-8 py-3 glass-card text-white rounded font-medium active:scale-95 transition-all text-center" href="/karan_resume.pdf" download="Karan_Kumar_Resume.pdf">Download Resume</a>
+          <a className="px-8 py-3 glass-card text-white rounded font-medium active:scale-95 transition-all text-center" href={`${import.meta.env.BASE_URL}karan_resume.pdf`} download="Karan_Kumar_Resume.pdf">Download Resume</a>
           <a className="px-8 py-3 border border-outline text-on-background rounded font-medium hover:bg-white/5 active:scale-95 transition-all" href="#contact">Contact Me</a>
         </div>
       </div>
